@@ -6,10 +6,11 @@ import Footer from "../Components/Shared/Footer";
 export default function Main() {
   return (
     <>
-      <div className="w-s"></div>
-      <Menu />
-      <Outlet />
-      <Footer />
+      <div className="w-screen overflow-x-hidden">
+        <Menu />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 }
