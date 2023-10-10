@@ -4,7 +4,7 @@ import Item from "../../../Components/Item";
 export default function TopItem() {
   return (
     <>
-      <div className="p-10 my-10">
+      <div className="p-10 lg:my-10 mt-20">
         <h1 className="text-center text-3xl p-4 font-bold">Top Items</h1>
         <div className="text-center">
           <Item
