@@ -17,7 +17,15 @@ export default function PartnerBox() {
     <Swiper
       className="m-10 my-20"
       spaceBetween={50}
-      slidesPerView={4}
+      slidesPerView={1}
+      breakpoints={{
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 6,
+        },
+      }}
       onSlideChange={() => {}}
       onSwiper={(swiper) => {}}
     >

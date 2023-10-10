@@ -28,9 +28,7 @@ export default function Footer() {
     <>
       <div className="p-4 bg-slate-900 rounded-sm">
         <div className="flex">
-          <h1 className="text-3xl text-white font-bold lg:w-3/12">
-            Naiem E-Commerce
-          </h1>
+          <h1 className="text-3xl text-white font-bold lg:w-3/12">ShopNest</h1>
         </div>
         <div className="lg:flex lg:justify-center lg:items-start py-10">
           <FooterBox options={footerCetagoryOption} boxName={"Cetagory"} />

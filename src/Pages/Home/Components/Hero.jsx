@@ -41,8 +41,12 @@ export default function Hero() {
             </p>
           </div>
         </div>
-
-        <Swiper item={2} />
+        <div className="lg:block hidden">
+          <Swiper item={4} />
+        </div>
+        <div className="lg:hidden block ">
+          <Swiper item={1} />
+        </div>
       </div>
     </>
   );
